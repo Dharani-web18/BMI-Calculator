@@ -1,0 +1,108 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(33, 49, 97);
+  margin-top: 20vh;   
+}
+
+.bmi-calculator {
+  height: 400px;
+  width: 500px;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  background-color: rgb(156, 176, 233);
+}
+
+.box {
+  width: 350px;
+  background-image: url("assets/bmi.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.data {
+  flex: 1;
+}
+
+h1 {
+ margin-bottom: 20px;
+ padding:10px 0px;
+ font-size: 20px;
+ text-transform: uppercase;
+ color: rgb(199, 8, 103);
+ font-weight: bold;
+}
+
+.input-container{
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: rgb(6, 116, 15);
+  font-weight: bold;
+}
+
+input {
+  padding: 10px;
+  border-radius:5px;
+  margin-bottom: 10px;
+  border: 1px solid;
+}
+
+button {
+  background-color: rgb(12, 101, 153);
+  color: rgb(234, 252, 252);
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  font-size: 12px;
+  width: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: rgb(102, 9, 24);
+}
+
+.result {
+ border: 1px solid blue;
+ border-radius: 5px;
+ padding: 5px;
+ margin-top: 15px;;
+}
+
+.result p {
+  color: rgb(62, 19, 102);
+  font-weight: bold;
+}
+
+.result p:first-child{
+  font-weight: bold;
+}
+
+.error {
+  color: rgb(241, 49, 49);
+  font-size: 12px;
+  font-weight: bold;
+  font-family :Verdana, Geneva, Tahoma, sans-serif
+}
+
+.b2 {
+  background-color: red;
+}
